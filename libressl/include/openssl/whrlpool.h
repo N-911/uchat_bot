@@ -5,7 +5,7 @@
 #ifndef HEADER_WHRLPOOL_H
 #define HEADER_WHRLPOOL_H
 
-#include <../../libressl/include/openssl/opensslconf.h>
+#include <../libressl/include/openssl/opensslconf.h>
 
 #ifdef __cplusplus
 extern "C" {

@@ -56,24 +56,6 @@ int mx_tls_config_client(t_client_info *info) {
     return 0;
 }
 
-//f (tls_init() == -1)
-//errx(1, “unable to initialize TLS”);
-//if ((tls_cfg = tls_config_new()) == NULL)
-//errx(1, “unable to allocate TLS config”);
-//tls_config_insecure_noverifyname(tls_cfg);
-//if (tls_config_set_dheparams(tls_cfg, “legacy”) == -1)
-//errx(1,“unable to set dheparams”);
-//
-//if (tls_config_set_ca_file(tls_cfg, “./rcirtificate/root.pem”) == -1)
-//errx(1, “unable to set root CA file root.pem”);
-//
-//if (tls_config_set_cert_file(tls_cfg, “client.pem”) == -1)
-//errx(1, “unable to set TLS certificate file client.pem”);
-//if (tls_config_set_key_file(tls_cfg, “client.key”) == -1)
-//errx(1, “unable to set TLS key file client.key”);
-
-
-
 
 int mx_make_tls_connect_client(t_client_info *info) {
     if (tls_connect_socket(info->tls_client, info->socket, "uchat") < 0)

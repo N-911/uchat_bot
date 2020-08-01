@@ -59,16 +59,16 @@
 #ifndef HEADER_ECDSA_H
 #define HEADER_ECDSA_H
 
-#include <../../libressl/include/openssl/opensslconf.h>
+#include <../libressl/include/openssl/opensslconf.h>
 
 #ifdef OPENSSL_NO_ECDSA
 #error ECDSA is disabled.
 #endif
 
-#include <../../libressl/include/openssl/ec.h>
-#include <../../libressl/include/openssl/ossl_typ.h>
+#include <../libressl/include/openssl/ec.h>
+#include <../libressl/include/openssl/ossl_typ.h>
 #ifndef OPENSSL_NO_DEPRECATED
-#include <../../libressl/include/openssl/bn.h>
+#include <../libressl/include/openssl/bn.h>
 #endif
 
 #ifdef __cplusplus

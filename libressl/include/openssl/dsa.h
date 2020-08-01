@@ -65,22 +65,22 @@
 #ifndef HEADER_DSA_H
 #define HEADER_DSA_H
 
-#include <../../libressl/include/openssl/opensslconf.h>
+#include <../libressl/include/openssl/opensslconf.h>
 
 #ifdef OPENSSL_NO_DSA
 #error DSA is disabled.
 #endif
 
 #ifndef OPENSSL_NO_BIO
-#include <../../libressl/include/openssl/bio.h>
+#include <../libressl/include/openssl/bio.h>
 #endif
-#include <../../libressl/include/openssl/crypto.h>
-#include <../../libressl/include/openssl/ossl_typ.h>
+#include <../libressl/include/openssl/crypto.h>
+#include <../libressl/include/openssl/ossl_typ.h>
 
 #ifndef OPENSSL_NO_DEPRECATED
-#include <../../libressl/include/openssl/bn.h>
+#include <../libressl/include/openssl/bn.h>
 #ifndef OPENSSL_NO_DH
-# include <../../libressl/include/openssl/dh.h>
+# include <../libressl/include/openssl/dh.h>
 #endif
 #endif
 

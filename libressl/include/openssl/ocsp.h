@@ -64,10 +64,10 @@
 #ifndef HEADER_OCSP_H
 #define HEADER_OCSP_H
 
-#include <../../libressl/include/openssl/ossl_typ.h>
-#include <../../libressl/include/openssl/x509.h>
-#include <../../libressl/include/openssl/x509v3.h>
-#include <../../libressl/include/openssl/safestack.h>
+#include <../libressl/include/openssl/ossl_typ.h>
+#include <../libressl/include/openssl/x509.h>
+#include <../libressl/include/openssl/x509v3.h>
+#include <../libressl/include/openssl/safestack.h>
 
 #ifdef  __cplusplus
 extern "C" {

@@ -59,17 +59,17 @@
 #ifndef HEADER_PEM_H
 #define HEADER_PEM_H
 
-#include <../../libressl/include/openssl/opensslconf.h>
+#include <../libressl/include/openssl/opensslconf.h>
 
 #ifndef OPENSSL_NO_BIO
-#include <../../libressl/include/openssl/bio.h>
+#include <../libressl/include/openssl/bio.h>
 #endif
 #ifndef OPENSSL_NO_STACK
-#include <../../libressl/include/openssl/stack.h>
+#include <../libressl/include/openssl/stack.h>
 #endif
-#include <../../libressl/include/openssl/evp.h>
-#include <../../libressl/include/openssl/x509.h>
-#include <../../libressl/include/openssl/pem2.h>
+#include <../libressl/include/openssl/evp.h>
+#include <../libressl/include/openssl/x509.h>
+#include <../libressl/include/openssl/pem2.h>
 
 #ifdef  __cplusplus
 extern "C" {

@@ -128,11 +128,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <../../libressl/include/openssl/opensslconf.h>
+#include <../libressl/include/openssl/opensslconf.h>
 
-#include <../../libressl/include/openssl/ossl_typ.h>
-#include <../../libressl/include/openssl/crypto.h>
-#include <../../libressl/include/openssl/bio.h>
+#include <../libressl/include/openssl/ossl_typ.h>
+#include <../libressl/include/openssl/crypto.h>
+#include <../libressl/include/openssl/bio.h>
 
 #ifdef  __cplusplus
 extern "C" {

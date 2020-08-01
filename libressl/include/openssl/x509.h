@@ -64,49 +64,49 @@
 #ifndef HEADER_X509_H
 #define HEADER_X509_H
 
-#include <../../libressl/include/openssl/opensslconf.h>
+#include <../libressl/include/openssl/opensslconf.h>
 
 #ifndef OPENSSL_NO_BUFFER
-#include <../../libressl/include/openssl/buffer.h>
+#include <../libressl/include/openssl/buffer.h>
 #endif
 #ifndef OPENSSL_NO_EVP
-#include <../../libressl/include/openssl/evp.h>
+#include <../libressl/include/openssl/evp.h>
 #endif
 #ifndef OPENSSL_NO_BIO
-#include <../../libressl/include/openssl/bio.h>
+#include <../libressl/include/openssl/bio.h>
 #endif
-#include <../../libressl/include/openssl/stack.h>
-#include <../../libressl/include/openssl/asn1.h>
-#include <../../libressl/include/openssl/safestack.h>
+#include <../libressl/include/openssl/stack.h>
+#include <../libressl/include/openssl/asn1.h>
+#include <../libressl/include/openssl/safestack.h>
 
 #ifndef OPENSSL_NO_EC
-#include <../../libressl/include/openssl/ec.h>
+#include <../libressl/include/openssl/ec.h>
 #endif
 
 #ifndef OPENSSL_NO_ECDSA
-#include <../../libressl/include/openssl/ecdsa.h>
+#include <../libressl/include/openssl/ecdsa.h>
 #endif
 
 #ifndef OPENSSL_NO_ECDH
-#include <../../libressl/include/openssl/ecdh.h>
+#include <../libressl/include/openssl/ecdh.h>
 #endif
 
 #ifndef OPENSSL_NO_DEPRECATED
 #ifndef OPENSSL_NO_RSA
-#include <../../libressl/include/openssl/rsa.h>
+#include <../libressl/include/openssl/rsa.h>
 #endif
 #ifndef OPENSSL_NO_DSA
-#include <../../libressl/include/openssl/dsa.h>
+#include <../libressl/include/openssl/dsa.h>
 #endif
 #ifndef OPENSSL_NO_DH
-#include <../../libressl/include/openssl/dh.h>
+#include <../libressl/include/openssl/dh.h>
 #endif
 #endif
 
 #ifndef OPENSSL_NO_SHA
-#include <../../libressl/include/openssl/sha.h>
+#include <../libressl/include/openssl/sha.h>
 #endif
-#include <../../libressl/include/openssl/ossl_typ.h>
+#include <../libressl/include/openssl/ossl_typ.h>
 
 #ifdef  __cplusplus
 extern "C" {
@@ -585,8 +585,8 @@ struct pkcs8_priv_key_info_st {
 }
 #endif
 
-#include <../../libressl/include/openssl/x509_vfy.h>
-#include <../../libressl/include/openssl/pkcs7.h>
+#include <../libressl/include/openssl/x509_vfy.h>
+#include <../libressl/include/openssl/pkcs7.h>
 
 #ifdef  __cplusplus
 extern "C" {

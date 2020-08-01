@@ -59,17 +59,17 @@
 #ifndef HEADER_RSA_H
 #define HEADER_RSA_H
 
-#include <../../libressl/include/openssl/opensslconf.h>
+#include <../libressl/include/openssl/opensslconf.h>
 
-#include <../../libressl/include/openssl/asn1.h>
+#include <../libressl/include/openssl/asn1.h>
 
 #ifndef OPENSSL_NO_BIO
-#include <../../libressl/include/openssl/bio.h>
+#include <../libressl/include/openssl/bio.h>
 #endif
-#include <../../libressl/include/openssl/crypto.h>
-#include <../../libressl/include/openssl/ossl_typ.h>
+#include <../libressl/include/openssl/crypto.h>
+#include <../libressl/include/openssl/ossl_typ.h>
 #ifndef OPENSSL_NO_DEPRECATED
-#include <../../libressl/include/openssl/bn.h>
+#include <../libressl/include/openssl/bn.h>
 #endif
 
 #ifdef OPENSSL_NO_RSA

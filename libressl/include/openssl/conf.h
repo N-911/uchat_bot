@@ -59,14 +59,14 @@
 #ifndef  HEADER_CONF_H
 #define HEADER_CONF_H
 
-#include "../../libressl/include/openssl/opensslconf.h"
+#include "../libressl/include/openssl/opensslconf.h"
 
-#include <../../libressl/include/openssl/bio.h>
-#include <../../libressl/include/openssl/lhash.h>
-#include <../../libressl/include/openssl/stack.h>
-#include <../../libressl/include/openssl/safestack.h>
+#include <../libressl/include/openssl/bio.h>
+#include <../libressl/include/openssl/lhash.h>
+#include <../libressl/include/openssl/stack.h>
+#include <../libressl/include/openssl/safestack.h>
 
-#include <../../libressl/include/openssl/ossl_typ.h>
+#include <../libressl/include/openssl/ossl_typ.h>
 
 
 #ifdef  __cplusplus

@@ -69,16 +69,16 @@
 #ifndef HEADER_ECDH_H
 #define HEADER_ECDH_H
 
-#include <../../libressl/include/openssl/opensslconf.h>
+#include <../libressl/include/openssl/opensslconf.h>
 
 #ifdef OPENSSL_NO_ECDH
 #error ECDH is disabled.
 #endif
 
-#include <../../libressl/include/openssl/ec.h>
-#include <../../libressl/include/openssl/ossl_typ.h>
+#include <../libressl/include/openssl/ec.h>
+#include <../libressl/include/openssl/ossl_typ.h>
 #ifndef OPENSSL_NO_DEPRECATED
-#include <../../libressl/include/openssl/bn.h>
+#include <../libressl/include/openssl/bn.h>
 #endif
 
 #ifdef __cplusplus
